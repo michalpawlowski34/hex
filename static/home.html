@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="gfx/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="Main.js"></script>
+    <script src="Net.js"></script>
+    <script src="Ui.js"></script>
+    <script src="Hex.js"></script>
+</head>
+<body>
+<div id="left">
+    <select name="select" id="selectAmount">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+    </select>
+    <input type="text" name="" id="inputSaveLevel" placeholder="nazwa save'a do zapisu" ></input>
+    <button id="buttonSaveLevel">ZAPISZ LEVEL NA SERWERZE</button>
+    <p style="margin-left: 15px;">Wybierz save'a do wczytania:</p>
+    <select name="" id="selectLoadLevel"></select>
+    <button id="buttonLoadLevel">WCZYTAJ LEVEL Z SERWERA</button>
+    <button id="goToHex">GO TO HEX</button>
+    <button id="goToGame">GO TO GAME</button>
+    <button id="buttonWalls" class="typeButtons">WALLS</button>
+    <button id="buttonEnemy" class="typeButtons">ENEMY</button>
+    <button id="buttonTreasure" class="typeButtons">TREASURE</button>
+    <button id="buttonLight" class="typeButtons">LIGHT</button>
+</div>
+<div id="levelLog"><span id="levelLogSpan"></span></div>
+<div id="right">
+</div>
+</body>
+</html>

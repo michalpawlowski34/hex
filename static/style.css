@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+#left{
+    background-color: lightgrey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+#selectAmount{
+    position: relative;
+    width: 170px;
+    top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+#buttonSaveLevel{
+    position: relative;
+    width: 158px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 6px solid darkgrey;
+    background-color: whitesmoke;
+    font-size: 19px;
+    text-align: center;
+}
+#inputSaveLevel{
+    position: relative;
+    width: 156px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#buttonLoadLevel{
+    position: relative;
+    width: 158px;
+    height: 70px;
+    border: 6px solid darkgrey;
+    background-color: whitesmoke;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#selectLoadLevel{
+    position: relative;
+    width: 158px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+#buttonSaveLevel:hover, #buttonLoadLevel:hover, #goToHex:hover, #goToGame:hover{
+    background-color: darkgrey;
+}
+#goToHex, #goToGame{
+    position: relative;
+    width: 158px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 6px solid darkgrey;
+    color: darkmagenta;
+}
+#goToGame{
+    color: forestgreen;
+}
+.typeButtons{
+    position: relative;
+    width: 158px;
+    height: 50px;
+    border: 6px solid darkgrey;
+    background-color: whitesmoke;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#levelLog{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: whitesmoke;
+    left:200px;
+    color: black;
+}
+#levelLogSpan{
+    width: 290px;
+    height: 100%;
+    white-space: pre;
+}
+.divHex{
+    position: absolute;
+    left: 200px;
+    width: 116px;
+    height: 100px;
+    background-image: url("gfx/hexagon.png");
+    background-repeat: no-repeat;
+    background-size: 116px 100px;
+}
+.insideHexDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 20px 30px;
+}
